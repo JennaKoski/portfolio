@@ -1,0 +1,28 @@
+body {
+  background-color: #333333;
+}
+
+.my_class {
+  color: #bbe97e;
+}
+
+#Projects {
+  color: #ccd60b;
+  font-size: 20px;
+}
+
+#AboutMe {
+  color: #ccd60b;
+  font-size: 20px;
+}
+
+#Skills {
+  color: #ccd60b;
+  font-size: 20px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: mintcream;
+}
