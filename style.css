@@ -1,28 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*
+    border-style: solid;
+    border-color: hotpink;
+    border-width: 1px; 
+    */
+}
+
 body {
   background-color: #333333;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.my_class {
-  color: #bbe97e;
+/* Header */
+
+header {
+  background-color: rgb(227, 243, 83);
+  padding: 20px;
+  background-image: url("https://images.unsplash.com/photo-1625834384234-fd4eb7fe121f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
 }
 
-#Projects {
-  color: #ccd60b;
+h1 {
+  color: #242521;
+  font-size: 52px;
+}
+
+header ul li {
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+}
+
+header nav a {
+  color: #1c2857;
+  font-size: 24px;
+}
+
+.welcome {
+  font-size: 70px;
+  line-height: 450px;
+}
+
+/*Body*/
+
+.container {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 20px;
+  line-height: 20px;
+  color: rgb(225, 247, 248);
   font-size: 20px;
 }
 
-#AboutMe {
-  color: #ccd60b;
-  font-size: 20px;
+h2 {
+  color: #26c9e6;
+  text-align: left;
+  line-height: 70px;
+  font-size: 22px;
 }
 
-#Skills {
-  color: #ccd60b;
-  font-size: 20px;
+h3 {
+  color: #26c9e6;
+  text-align: left;
+  line-height: 70px;
+  font-size: 22px;
+}
+
+h4 {
+  color: #26c9e6;
+  text-align: left;
+  line-height: 70px;
+  font-size: 22px;
+}
+
+.part1 {
+  display: inline-table;
+}
+
+.part2 {
+  background-color: rgb(65, 65, 66);
+  display: inline-table;
+}
+
+.part3 {
+  display: inline-table;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  float: left;
+  display: block;
+}
+
+.img2 {
+  width: 300px;
+  height: auto;
+  float: right;
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  color: mintcream;
+  line-height: 25px;
+}
+
+/*Footer*/
+
+footer {
+  background-color: rgb(92, 241, 247);
+  text-align: center;
+  color: #333333;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.name {
+  display: inline-table;
+}
+
+.box {
+  border-radius: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+  line-height: 25px;
+  width: 350px;
+  border-color: rgb(105, 105, 102);
+  border-style: solid;
+}
+
+.box3 {
+  line-height: 100px;
+}
+
+button {
+  background-color: rgb(245, 178, 115);
+  width: 200px;
+  height: 35px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.copyright {
+  margin-top: 25px;
 }
