@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Jenna Koski" />
+    <meta name="Jenna Koski" content="portfolio" />
     <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/be79dc409c.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Portfolio</title>
   </head>
   <body>
@@ -27,38 +31,33 @@
       </div>
     </header>
     <main>
-      <h3 id="Projects">Projects</h3>
       <section class="container_projects">
-        <article class="project">
-          <img class="img1" src="img/kissa.jpeg" />
-          <h4 class="headingP1">Project 1</h4>
-          <p class="p1">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <a href="#see_more1">See more</a>
-        </article>
-        <article class="project">
-          <img class="img2" src="img/Jenna4.jpg" />
-          <h4 class="headingP2">Project 2</h4>
-          <p class="p2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <a href="#see_more2">See more</a>
-        </article>
-        <article class="project">
-          <img class="img3" src="img/venetsia.jpg" />
-          <h4 class="headingP3">Project 3</h4>
-          <p class="p3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <a href="#see_more3">See more</a>
-        </article>
+        <h3 id="Projects">Projects</h3>
+        <div class="cards">
+          <article class="project">
+            <img class="img1" src="img/kissa.jpeg" alt="cat" />
+            <h4 class="headingP1">Project 1</h4>
+            <p class="p_card">Lorem ipsum dolor.</p>
+            <a href="#see_more1">See more</a>
+          </article>
+          <article class="project">
+            <img class="img2" src="img/Jenna4.jpg" alt="mountains and me" />
+            <h4 class="headingP2">Project 2</h4>
+            <p class="p_card">Lorem ipsum dolor.</p>
+            <a href="#see_more2">See more</a>
+          </article>
+          <article class="project">
+            <img class="img3" src="img/venetsia.jpg" alt="Venice" />
+            <h4 class="headingP3">Project 3</h4>
+            <p class="p_card">Lorem ipsum dolor.</p>
+            <a href="#see_more3">See more</a>
+          </article>
+        </div>
       </section>
-      <section class="container_others">
+      <section class="container_about_me">
+        <h3 id="AboutMe">About me</h3>
         <article class="class_about_me">
-          <h3 id="AboutMe">About me</h3>
-          <img class="img4" src="img/jenna2.jpg" />
-          <p class="p4">
+          <p class="p_about_me">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
             quibusdam, nemo accusamus impedit veritatis in tempore, dicta
             sapiente amet qui exercitationem, delectus repudiandae excepturi
@@ -72,43 +71,48 @@
             totam error eum? Quas reiciendis cum eligendi necessitatibus
             temporibus! Vel, quam natus libero tenetur qui velit ipsam.
           </p>
+          <img class="img4" src="img/jenna2.jpg" alt="me" />
         </article>
-        <article class="class_skills">
-          <h3 id="Skills">Skills</h3>
-          <img class="img5" src="img/patagonia2.jpeg" />
-          <p class="p5">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae
-            dolorem consequuntur sapiente unde atque facere dolores praesentium
-            dolor quae eius! Modi ut at reprehenderit eaque illum facilis
-            reiciendis veniam quos earum saepe. Libero id praesentium similique
-            repellat quis sit maiores quaerat corrupti mollitia, illo
-            repudiandae, eligendi voluptatum et atque voluptate officia sapiente
-            nam? Ab natus laboriosam et ut, nihil magnam eos alias sequi minus
-            velit inventore optio mollitia harum aliquam! In, obcaecati.
-            Eligendi nulla deserunt minima esse dignissimos quo dolore sint
-            blanditiis sunt laudantium et ea nam unde nihil ipsum ex pariatur
-            est iure, maiores libero. Laudantium perspiciatis similique
-            excepturi.
-          </p>
-        </article>
+      </section>
+      <section class="container_skills">
+        <h3 id="Skills">Skills</h3>
+        <div class="skills_all">
+          <article class="skills">
+            <i class="fa-brands fa-html5 fa-8x"></i>
+            <h4 class="heading_skills_html">HTML5</h4>
+            <p class="p_skills_html">lkjlkjlkj</p>
+          </article>
+          <article class="skills">
+            <i class="fa-brands fa-js"></i>
+            <h4 class="heading_skills_js">JavaScript</h4>
+            <p class="p_skills_js">lkjlkjlkj</p>
+          </article>
+          <article class="skills">
+            <i class="fa-brands fa-css3"></i>
+            <h4 class="heading_skills_css">CSS3</h4>
+            <p class="p_skills_css">lkjlkjlkj</p>
+          </article>
+        </div>
       </section>
     </main>
     <footer>
       <h5 id="Contact">Contact me</h5>
       <div class="inputs">
-        <div class="name">
-          <p>Your name</p>
-          <input type="text" class="box box1" />
-        </div>
-        <div class="email">
-          <p>Your email</p>
-          <input type="email" class="box box2" />
-        </div>
-        <div class="message">
-          <p>Message to me</p>
-          <textarea class="box box3"></textarea>
-          <!-- <input type="" class="box box3" /> -->
-        </div>
+        <form>
+          <div class="name">
+            <p>Your name</p>
+            <input type="text" class="box box1" />
+          </div>
+          <div class="email">
+            <p>Your email</p>
+            <input type="email" class="box box2" />
+          </div>
+          <div class="message">
+            <p>Message to me</p>
+            <textarea class="box box3"></textarea>
+            <!-- <input type="" class="box box3" /> -->
+          </div>
+        </form>
       </div>
       <div><button onclick="submit">SEND MESSAGE</button></div>
       <div class="copyright">

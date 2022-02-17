@@ -21,7 +21,7 @@ header {
   background-size: cover;
   position: relative;
   max-width: 200rem;
-  margin: 0, auto;
+  margin: 0 auto;
 }
 
 .upper_part {
@@ -75,26 +75,34 @@ h3 {
 }
 
 .container_projects {
-  max-width: 200px;
   padding: 1rem;
-  margin: 1rem;
-  display: flex;
-  /* justify-content: space-between; */
-  /* flex-direction: row; */
 }
 
-h4 {
-  margin: 1rem auto;
-  color: #26c9e6;
+.cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .project {
-  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* justify-content: space-evenly; */
+  align-items: flex-start;
+  padding: 1rem;
+  margin: 1rem;
   line-height: 1.25rem;
   color: rgb(197, 236, 238);
   font-size: 1.25rem;
   border: 2px solid #035361;
   border-radius: 5px;
+}
+
+h4 {
+  color: #26c9e6;
+  margin-bottom: 1rem;
 }
 
 .container_projects a {
@@ -105,43 +113,62 @@ h4 {
 
 .container_projects img {
   margin-bottom: 2rem;
-  max-height: 250px;
+  max-height: 14rem;
   width: auto;
 }
 
-.p1,
-.p2,
-.p3 {
+.p_card {
   margin-bottom: 1rem;
 }
 
-.container_others {
-  display: inline-table;
+.container_about_me {
+  background-color: rgb(73, 75, 75);
   padding: 1rem;
   margin: 1rem;
-  max-width: 1200px;
+  max-width: 200rem;
   font-size: 1.25rem;
   color: rgb(197, 236, 238);
 }
 
 .class_about_me {
-  background-color: rgb(73, 75, 75);
-  /* background-size: 1800rem; */
-  display: block;
+  display: flex;
 }
 
 .img4 {
-  max-height: 250px;
+  max-height: 15.625rem;
   width: auto;
   float: right;
   display: block;
+  margin-left: 2rem;
 }
 
-.img5 {
-  width: 300px;
-  height: auto;
-  float: left;
-  display: block;
+.container_skills {
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 200rem;
+  font-size: 1.25rem;
+  color: rgb(197, 236, 238);
+}
+
+.skills_all {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  padding: 1rem;
+  margin: 1rem;
+  line-height: 1.25rem;
+  color: rgb(197, 236, 238);
+  font-size: 1.25rem;
+  border: 2px solid #035361;
+  border-radius: 5px;
 }
 
 p {
@@ -168,22 +195,22 @@ h5 {
 .box {
   border-radius: 5px;
   margin: auto;
-  margin-bottom: 10px;
-  line-height: 25px;
-  width: 350px;
+  margin-bottom: 0.625rem;
+  line-height: 1.563rem;
+  width: 21.875rem;
   border-color: rgb(105, 105, 102);
   border-style: solid;
   border-width: 2px;
 }
 
 .box3 {
-  line-height: 100px;
+  height: 10rem;
 }
 
 button {
   background-color: rgb(245, 178, 115);
-  width: 200px;
-  height: 35px;
+  width: 9rem;
+  height: 2.2rem;
   border-radius: 5px;
   border-style: none;
 }
