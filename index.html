@@ -11,13 +11,14 @@
       src="https://kit.fontawesome.com/be79dc409c.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="icon" type="image/ico" href="img/j2.ico" />
     <title>Portfolio</title>
   </head>
   <body>
     <header>
       <div>
-        <nav class="upper_part">
-          <h2 class="my_name">Jenna Koski</h2>
+        <nav class="navigation">
+          <h2 class="logo">Jenna Koski</h2>
           <ul>
             <li><a href="#Projects">Projects</a></li>
             <li><a href="#AboutMe">About me</a></li>
@@ -26,7 +27,7 @@
           </ul>
         </nav>
       </div>
-      <div class="welcome">
+      <div class="hero">
         <h1>Welcome to my portfolio</h1>
       </div>
     </header>
@@ -80,43 +81,54 @@
           <article class="skills">
             <i class="fa-brands fa-html5 fa-8x"></i>
             <h4 class="heading_skills_html">HTML5</h4>
+            <div class="progress_bars">
+              <div class="progress html">30%</div>
+            </div>
             <p class="p_skills_html">lkjlkjlkj</p>
           </article>
           <article class="skills">
-            <i class="fa-brands fa-js"></i>
+            <i class="fa-brands fa-js fa-8x"></i>
             <h4 class="heading_skills_js">JavaScript</h4>
+            <div class="progress_bars">
+              <div class="progress js">5%</div>
+            </div>
             <p class="p_skills_js">lkjlkjlkj</p>
           </article>
           <article class="skills">
-            <i class="fa-brands fa-css3"></i>
+            <i class="fa-brands fa-css3 fa-8x"></i>
             <h4 class="heading_skills_css">CSS3</h4>
+            <div class="progress_bars">
+              <div class="progress css">30%</div>
+            </div>
             <p class="p_skills_css">lkjlkjlkj</p>
           </article>
         </div>
       </section>
     </main>
     <footer>
-      <h5 id="Contact">Contact me</h5>
-      <div class="inputs">
-        <form>
-          <div class="name">
-            <p>Your name</p>
-            <input type="text" class="box box1" />
-          </div>
-          <div class="email">
-            <p>Your email</p>
-            <input type="email" class="box box2" />
-          </div>
-          <div class="message">
-            <p>Message to me</p>
-            <textarea class="box box3"></textarea>
-            <!-- <input type="" class="box box3" /> -->
-          </div>
-        </form>
-      </div>
-      <div><button onclick="submit">SEND MESSAGE</button></div>
-      <div class="copyright">
-        <p>Copyright © My Website 2022</p>
+      <div class="container_footer">
+        <h5 id="Contact">Contact me</h5>
+        <div class="inputs">
+          <form>
+            <div class="name">
+              <p>Your name</p>
+              <input type="text" class="box box1" />
+            </div>
+            <div class="email">
+              <p>Your email</p>
+              <input type="email" class="box box2" />
+            </div>
+            <div class="message">
+              <p>Message to me</p>
+              <textarea class="box box3"></textarea>
+              <!-- <input type="" class="box box3" /> -->
+            </div>
+          </form>
+        </div>
+        <div><button onclick="submit">SEND MESSAGE</button></div>
+        <div class="copyright">
+          <p>Copyright © My Website 2022</p>
+        </div>
       </div>
     </footer>
   </body>
