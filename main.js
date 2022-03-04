@@ -41,3 +41,4 @@ const mobMenu = () => {
 };
 
 button.addEventListener("click", getToTop);
+hamburger.addEventListener("click", mobMenu);
