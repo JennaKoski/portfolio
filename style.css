@@ -345,9 +345,6 @@ button {
   grid-row: 1;
 }
 
-#babboon {
-}
-
 /* Media */
 
 @media (max-width: 1081px) {
@@ -455,5 +452,17 @@ button {
   }
   .logo {
     font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 441px) {
+  header {
+    width: 107%;
+  }
+}
+
+@media (max-width: 374px) {
+  header {
+    width: 112%;
   }
 }
