@@ -47,6 +47,11 @@ header {
   display: flex;
   font-size: 2.5rem;
   margin: 3rem;
+  transition: 2s;
+}
+
+.logo:hover {
+  transform: rotateY(360deg);
 }
 
 header ul {
@@ -60,7 +65,7 @@ header ul li {
 
 header ul li a {
   color: #242521;
-  font-size: 1.25rem;
+  font-size: 1.375rem;
   text-decoration: none;
   padding: 0.6rem;
   transition: 0.3s;
@@ -80,7 +85,12 @@ ul li a:hover {
   flex-wrap: wrap;
   font-size: 2.125rem;
   padding: 13rem;
+  text-shadow: 2px 3px 3px #5c5c5a;
 }
+
+/* .hero:hover {
+  text-shadow: 0 0 5px black;
+} */
 
 .bg {
   background-color: #333333;
@@ -437,6 +447,7 @@ button {
   .hero {
     padding: 10rem;
     font-size: 1.25rem;
+    text-shadow: 1px 1px 3px #5c5c5a;
   }
   .logo {
     font-size: 1.7rem;
@@ -448,101 +459,101 @@ button {
     width: 13rem;
     margin: 1rem 0;
   }
+}
 
-  @media (max-width: 577px) {
-    .hero {
-      padding: 9rem;
-      font-size: 1.1rem;
-    }
-    .logo {
-      font-size: 1.5rem;
-    }
-    h3 {
-      font-size: 1.2rem;
-      scroll-margin-top: 5rem;
-      margin-top: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
-    h4 {
-      font-size: 1.1rem;
-    }
-    p {
-      font-size: 0.9rem;
-    }
-    .cards a {
-      font-size: 0.9rem;
-    }
-    h5 {
-      font-size: 1.2rem;
-    }
+@media (max-width: 577px) {
+  .hero {
+    padding: 9rem;
+    font-size: 1.1rem;
   }
-
-  @media (max-width: 515px) {
-    #hamburger {
-      font-size: 1.6rem;
-    }
-    .hero {
-      padding: 8rem;
-      font-size: 0.9rem;
-    }
-    .logo {
-      font-size: 1.3rem;
-    }
-    #send {
-      padding: 0.8rem 2.5rem;
-    }
-    #backToTop {
-      padding: 0.8rem 1.1rem;
-    }
+  .logo {
+    font-size: 1.5rem;
   }
-
-  @media (max-width: 445px) {
-    #hamburger {
-      font-size: 1.5rem;
-    }
-    .hero {
-      padding: 7rem;
-      font-size: 0.9rem;
-    }
-    .logo {
-      font-size: 1.2rem;
-    }
-    h3,
-    h5 {
-      font-size: 1.1rem;
-    }
-    h4 {
-      font-size: 1rem;
-    }
-    header {
-      width: 107%;
-    }
-    footer {
-      width: 107%;
-    }
-    #send {
-      padding: 0.8rem 2.3rem;
-    }
-    #backToTop {
-      padding: 0.8rem 1rem;
-    }
+  h3 {
+    font-size: 1.2rem;
+    scroll-margin-top: 5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
+  h4 {
+    font-size: 1.1rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  .cards a {
+    font-size: 0.9rem;
+  }
+  h5 {
+    font-size: 1.2rem;
+  }
+}
 
-  @media (max-width: 380px) {
-    header {
-      width: 112%;
-    }
-    .project {
-      margin-left: 3.6rem;
-    }
-    #send {
-      padding: 0.8rem 2.1rem;
-    }
-    #backToTop {
-      padding: 0.8rem 0.8rem;
-    }
-    footer {
-      width: 112%;
-    }
+@media (max-width: 515px) {
+  #hamburger {
+    font-size: 1.6rem;
+  }
+  .hero {
+    padding: 8rem;
+    font-size: 0.9rem;
+  }
+  .logo {
+    font-size: 1.3rem;
+  }
+  #send {
+    padding: 0.8rem 2.5rem;
+  }
+  #backToTop {
+    padding: 0.8rem 1.1rem;
+  }
+}
+
+@media (max-width: 445px) {
+  #hamburger {
+    font-size: 1.5rem;
+  }
+  .hero {
+    padding: 7rem;
+    font-size: 0.9rem;
+  }
+  .logo {
+    font-size: 1.2rem;
+  }
+  h3,
+  h5 {
+    font-size: 1.1rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  header {
+    width: 107%;
+  }
+  footer {
+    width: 107%;
+  }
+  #send {
+    padding: 0.8rem 2.3rem;
+  }
+  #backToTop {
+    padding: 0.8rem 1rem;
+  }
+}
+
+@media (max-width: 380px) {
+  header {
+    width: 112%;
+  }
+  .project {
+    margin-left: 3.6rem;
+  }
+  #send {
+    padding: 0.8rem 2.1rem;
+  }
+  #backToTop {
+    padding: 0.8rem 0.8rem;
+  }
+  footer {
+    width: 112%;
   }
 }
